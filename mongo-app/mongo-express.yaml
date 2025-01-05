@@ -44,7 +44,7 @@ metadata:
 spec:
   selector:
     app: mongo-express
-  type: LoadBalancer
+  type: LoadBalancer ### This makes it external service
   ports:
   - protocol: TCP
     port: 8081
